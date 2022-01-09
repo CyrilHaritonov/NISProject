@@ -197,6 +197,10 @@
 ## Архитектура
 
  ![Component Diagram](img/componentDiagram.png)
+
+### Референсная архитектура
+
+![Reference Architecture](img/referenceArchitecture.png)
  
 ### Основные компоненты
 * Data Base

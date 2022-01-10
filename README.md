@@ -199,8 +199,11 @@
  ![Component Diagram](img/componentDiagram.png)
 
 ### Референсная архитектура
-
-![Reference Architecture](img/referenceArchitecture.png)
+ ![Reference Architecture](img/referenceArchitecture.png "Basic Web Application Architecture")
+ [Ссылка на архитектуру](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app?tabs=cli)
+* В Logic sever находится Data Uploader, Request Handler, RAGH Module, User Data Module, они развернуты с использованием Azure App Service
+* Для AI Module используется Azure Machine Learning Service [ссылка](https://azure.microsoft.com/en-us/services/machine-learning/#product-overview)
+* Для Data Base используется Azure SQL Database
  
 ### Основные компоненты
 * Data Base
